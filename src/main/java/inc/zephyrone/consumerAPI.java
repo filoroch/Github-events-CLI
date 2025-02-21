@@ -1,5 +1,8 @@
 package inc.zephyrone;
 
+import com.google.gson.Gson;
+import org.jetbrains.annotations.NotNull;
+
 import javax.net.ssl.HttpsURLConnection;
 import java.io.*;
 import java.net.MalformedURLException;
@@ -14,7 +17,7 @@ public class consumerAPI {
     // Retornar o json no console
     // Converter para a saida esperada
     }
-    public static void consumer(Scanner input) throws IOException {
+    public static void consumer(@NotNull Scanner input) throws IOException {
         // Recebe o valor do CLI
         System.out.println("Digite o nome do usuario");
         String user = input.nextLine();
@@ -41,5 +44,6 @@ public class consumerAPI {
         } finally {
             connection.disconnect();
         }
+        Gson gson = new Gson();
     }
 }

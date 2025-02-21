@@ -1,0 +1,1171 @@
+[
+  {
+    "id": "46746348956",
+    "type": "WatchEvent",
+    "actor": {
+      "id": 162770790,
+      "login": "filoroch",
+      "display_login": "filoroch",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/filoroch",
+      "avatar_url": "https://avatars.githubusercontent.com/u/162770790?"
+    },
+    "repo": {
+      "id": 935557108,
+      "name": "aps3e-emulator/.github",
+      "url": "https://api.github.com/repos/aps3e-emulator/.github"
+    },
+    "payload": {
+      "action": "started"
+    },
+    "public": true,
+    "created_at": "2025-02-19T18:55:31Z",
+    "org": {
+      "id": 199962643,
+      "login": "aps3e-emulator",
+      "gravatar_id": "",
+      "url": "https://api.github.com/orgs/aps3e-emulator",
+      "avatar_url": "https://avatars.githubusercontent.com/u/199962643?"
+    }
+  },
+  {
+    "id": "46735508605",
+    "type": "CreateEvent",
+    "actor": {
+      "id": 162770790,
+      "login": "filoroch",
+      "display_login": "filoroch",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/filoroch",
+      "avatar_url": "https://avatars.githubusercontent.com/u/162770790?"
+    },
+    "repo": {
+      "id": 935485646,
+      "name": "filoroch/baixar_extrair_salvar_videoYT",
+      "url": "https://api.github.com/repos/filoroch/baixar_extrair_salvar_videoYT"
+    },
+    "payload": {
+      "ref": null,
+      "ref_type": "repository",
+      "master_branch": "main",
+      "description": "Script Python para baixar videos usando API do Youtube para automação",
+      "pusher_type": "user"
+    },
+    "public": true,
+    "created_at": "2025-02-19T14:21:14Z"
+  },
+  {
+    "id": "46593450308",
+    "type": "PushEvent",
+    "actor": {
+      "id": 162770790,
+      "login": "filoroch",
+      "display_login": "filoroch",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/filoroch",
+      "avatar_url": "https://avatars.githubusercontent.com/u/162770790?"
+    },
+    "repo": {
+      "id": 932301027,
+      "name": "filoroch/typescript_beecrowd",
+      "url": "https://api.github.com/repos/filoroch/typescript_beecrowd"
+    },
+    "payload": {
+      "repository_id": 932301027,
+      "push_id": 22666468506,
+      "size": 2,
+      "distinct_size": 2,
+      "ref": "refs/heads/solving",
+      "head": "08ffef8d25c2477e7f5ec49198067f16459541d8",
+      "before": "e8fad4f498ea9ade4acf6ed2746f12e682b1253c",
+      "commits": [
+        {
+          "sha": "543120f8bca3bd62294fd8d6b712416dc2072e9e",
+          "author": {
+            "email": "162770790+filoroch@users.noreply.github.com",
+            "name": "Filipe"
+          },
+          "message": "feat(1015) add solved exercise\n\nSigned-off-by: Filipe <162770790+filoroch@users.noreply.github.com>",
+          "distinct": true,
+          "url": "https://api.github.com/repos/filoroch/typescript_beecrowd/commits/543120f8bca3bd62294fd8d6b712416dc2072e9e"
+        },
+        {
+          "sha": "08ffef8d25c2477e7f5ec49198067f16459541d8",
+          "author": {
+            "email": "162770790+filoroch@users.noreply.github.com",
+            "name": "Filipe"
+          },
+          "message": "feat(1017): add exercise 1017\n\nNo exercicio foram usados conhecimentos de desestruturação de array, assim como conhecimentos de conversão de strings para numeros\n\nSigned-off-by: Filipe <162770790+filoroch@users.noreply.github.com>",
+          "distinct": true,
+          "url": "https://api.github.com/repos/filoroch/typescript_beecrowd/commits/08ffef8d25c2477e7f5ec49198067f16459541d8"
+        }
+      ]
+    },
+    "public": true,
+    "created_at": "2025-02-14T19:54:43Z"
+  },
+  {
+    "id": "46555598940",
+    "type": "PushEvent",
+    "actor": {
+      "id": 162770790,
+      "login": "filoroch",
+      "display_login": "filoroch",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/filoroch",
+      "avatar_url": "https://avatars.githubusercontent.com/u/162770790?"
+    },
+    "repo": {
+      "id": 932301027,
+      "name": "filoroch/typescript_beecrowd",
+      "url": "https://api.github.com/repos/filoroch/typescript_beecrowd"
+    },
+    "payload": {
+      "repository_id": 932301027,
+      "push_id": 22647172546,
+      "size": 1,
+      "distinct_size": 1,
+      "ref": "refs/heads/main",
+      "head": "6c6363eaa59ac5eeceba54ac955bbde532c679df",
+      "before": "872a3775a736ba86e578a06de61532bc74368041",
+      "commits": [
+        {
+          "sha": "6c6363eaa59ac5eeceba54ac955bbde532c679df",
+          "author": {
+            "email": "162770790+filoroch@users.noreply.github.com",
+            "name": "Filipe"
+          },
+          "message": "UPDATE README",
+          "distinct": true,
+          "url": "https://api.github.com/repos/filoroch/typescript_beecrowd/commits/6c6363eaa59ac5eeceba54ac955bbde532c679df"
+        }
+      ]
+    },
+    "public": true,
+    "created_at": "2025-02-13T20:53:57Z"
+  },
+  {
+    "id": "46555548915",
+    "type": "PushEvent",
+    "actor": {
+      "id": 162770790,
+      "login": "filoroch",
+      "display_login": "filoroch",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/filoroch",
+      "avatar_url": "https://avatars.githubusercontent.com/u/162770790?"
+    },
+    "repo": {
+      "id": 932301027,
+      "name": "filoroch/typescript_beecrowd",
+      "url": "https://api.github.com/repos/filoroch/typescript_beecrowd"
+    },
+    "payload": {
+      "repository_id": 932301027,
+      "push_id": 22647147968,
+      "size": 1,
+      "distinct_size": 1,
+      "ref": "refs/heads/main",
+      "head": "872a3775a736ba86e578a06de61532bc74368041",
+      "before": "33c2aa4aa187c395058291c6da4ce6a5bcce69bb",
+      "commits": [
+        {
+          "sha": "872a3775a736ba86e578a06de61532bc74368041",
+          "author": {
+            "email": "162770790+filoroch@users.noreply.github.com",
+            "name": "Filipe"
+          },
+          "message": "docs(README): update README",
+          "distinct": true,
+          "url": "https://api.github.com/repos/filoroch/typescript_beecrowd/commits/872a3775a736ba86e578a06de61532bc74368041"
+        }
+      ]
+    },
+    "public": true,
+    "created_at": "2025-02-13T20:52:08Z"
+  },
+  {
+    "id": "46555433602",
+    "type": "PushEvent",
+    "actor": {
+      "id": 162770790,
+      "login": "filoroch",
+      "display_login": "filoroch",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/filoroch",
+      "avatar_url": "https://avatars.githubusercontent.com/u/162770790?"
+    },
+    "repo": {
+      "id": 932301027,
+      "name": "filoroch/typescript_beecrowd",
+      "url": "https://api.github.com/repos/filoroch/typescript_beecrowd"
+    },
+    "payload": {
+      "repository_id": 932301027,
+      "push_id": 22647089769,
+      "size": 1,
+      "distinct_size": 1,
+      "ref": "refs/heads/main",
+      "head": "33c2aa4aa187c395058291c6da4ce6a5bcce69bb",
+      "before": "e22ac8c8cd9d111772ee56e8a4a81e4dea3d343c",
+      "commits": [
+        {
+          "sha": "33c2aa4aa187c395058291c6da4ce6a5bcce69bb",
+          "author": {
+            "email": "162770790+filoroch@users.noreply.github.com",
+            "name": "Filipe"
+          },
+          "message": "Update README.md",
+          "distinct": true,
+          "url": "https://api.github.com/repos/filoroch/typescript_beecrowd/commits/33c2aa4aa187c395058291c6da4ce6a5bcce69bb"
+        }
+      ]
+    },
+    "public": true,
+    "created_at": "2025-02-13T20:48:07Z"
+  },
+  {
+    "id": "46555292366",
+    "type": "PushEvent",
+    "actor": {
+      "id": 162770790,
+      "login": "filoroch",
+      "display_login": "filoroch",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/filoroch",
+      "avatar_url": "https://avatars.githubusercontent.com/u/162770790?"
+    },
+    "repo": {
+      "id": 931084828,
+      "name": "filoroch/desafios_beecrowd",
+      "url": "https://api.github.com/repos/filoroch/desafios_beecrowd"
+    },
+    "payload": {
+      "repository_id": 931084828,
+      "push_id": 22647017754,
+      "size": 1,
+      "distinct_size": 1,
+      "ref": "refs/heads/main",
+      "head": "979a2b6a31d014724bc279c9650e5aba37e2e897",
+      "before": "357e7b7a26e6a383e1ddbe7c9a2c0f4a39315848",
+      "commits": [
+        {
+          "sha": "979a2b6a31d014724bc279c9650e5aba37e2e897",
+          "author": {
+            "email": "162770790+filoroch@users.noreply.github.com",
+            "name": "Filipe"
+          },
+          "message": "UPDATE\n\nSigned-off-by: Filipe <162770790+filoroch@users.noreply.github.com>",
+          "distinct": true,
+          "url": "https://api.github.com/repos/filoroch/desafios_beecrowd/commits/979a2b6a31d014724bc279c9650e5aba37e2e897"
+        }
+      ]
+    },
+    "public": true,
+    "created_at": "2025-02-13T20:43:08Z"
+  },
+  {
+    "id": "46555175321",
+    "type": "PushEvent",
+    "actor": {
+      "id": 162770790,
+      "login": "filoroch",
+      "display_login": "filoroch",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/filoroch",
+      "avatar_url": "https://avatars.githubusercontent.com/u/162770790?"
+    },
+    "repo": {
+      "id": 931084828,
+      "name": "filoroch/desafios_beecrowd",
+      "url": "https://api.github.com/repos/filoroch/desafios_beecrowd"
+    },
+    "payload": {
+      "repository_id": 931084828,
+      "push_id": 22646958716,
+      "size": 1,
+      "distinct_size": 1,
+      "ref": "refs/heads/main",
+      "head": "357e7b7a26e6a383e1ddbe7c9a2c0f4a39315848",
+      "before": "78776c3b1954c0f3bcd84581b1fbcf827280697a",
+      "commits": [
+        {
+          "sha": "357e7b7a26e6a383e1ddbe7c9a2c0f4a39315848",
+          "author": {
+            "email": "162770790+filoroch@users.noreply.github.com",
+            "name": "Filipe"
+          },
+          "message": "feat(javascript): adicionando o modulo javascript de exercicios\n\nSigned-off-by: Filipe <162770790+filoroch@users.noreply.github.com>",
+          "distinct": true,
+          "url": "https://api.github.com/repos/filoroch/desafios_beecrowd/commits/357e7b7a26e6a383e1ddbe7c9a2c0f4a39315848"
+        }
+      ]
+    },
+    "public": true,
+    "created_at": "2025-02-13T20:39:07Z"
+  },
+  {
+    "id": "46555142165",
+    "type": "PushEvent",
+    "actor": {
+      "id": 162770790,
+      "login": "filoroch",
+      "display_login": "filoroch",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/filoroch",
+      "avatar_url": "https://avatars.githubusercontent.com/u/162770790?"
+    },
+    "repo": {
+      "id": 932301027,
+      "name": "filoroch/typescript_beecrowd",
+      "url": "https://api.github.com/repos/filoroch/typescript_beecrowd"
+    },
+    "payload": {
+      "repository_id": 932301027,
+      "push_id": 22646941940,
+      "size": 1,
+      "distinct_size": 1,
+      "ref": "refs/heads/main",
+      "head": "e22ac8c8cd9d111772ee56e8a4a81e4dea3d343c",
+      "before": "c7bfe4c654825c6124f2691adb44fe73694b6673",
+      "commits": [
+        {
+          "sha": "e22ac8c8cd9d111772ee56e8a4a81e4dea3d343c",
+          "author": {
+            "email": "162770790+filoroch@users.noreply.github.com",
+            "name": "Filipe"
+          },
+          "message": "feat(1016): add details in problem 1016\n\nSigned-off-by: Filipe <162770790+filoroch@users.noreply.github.com>",
+          "distinct": true,
+          "url": "https://api.github.com/repos/filoroch/typescript_beecrowd/commits/e22ac8c8cd9d111772ee56e8a4a81e4dea3d343c"
+        }
+      ]
+    },
+    "public": true,
+    "created_at": "2025-02-13T20:37:59Z"
+  },
+  {
+    "id": "46554650533",
+    "type": "PushEvent",
+    "actor": {
+      "id": 162770790,
+      "login": "filoroch",
+      "display_login": "filoroch",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/filoroch",
+      "avatar_url": "https://avatars.githubusercontent.com/u/162770790?"
+    },
+    "repo": {
+      "id": 931084828,
+      "name": "filoroch/desafios_beecrowd",
+      "url": "https://api.github.com/repos/filoroch/desafios_beecrowd"
+    },
+    "payload": {
+      "repository_id": 931084828,
+      "push_id": 22646694460,
+      "size": 1,
+      "distinct_size": 1,
+      "ref": "refs/heads/main",
+      "head": "78776c3b1954c0f3bcd84581b1fbcf827280697a",
+      "before": "8385583f2f17964a9bf220ca102c5c973be7b918",
+      "commits": [
+        {
+          "sha": "78776c3b1954c0f3bcd84581b1fbcf827280697a",
+          "author": {
+            "email": "162770790+filoroch@users.noreply.github.com",
+            "name": "Filipe"
+          },
+          "message": "Update README.md",
+          "distinct": true,
+          "url": "https://api.github.com/repos/filoroch/desafios_beecrowd/commits/78776c3b1954c0f3bcd84581b1fbcf827280697a"
+        }
+      ]
+    },
+    "public": true,
+    "created_at": "2025-02-13T20:21:17Z"
+  },
+  {
+    "id": "46554317922",
+    "type": "PushEvent",
+    "actor": {
+      "id": 162770790,
+      "login": "filoroch",
+      "display_login": "filoroch",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/filoroch",
+      "avatar_url": "https://avatars.githubusercontent.com/u/162770790?"
+    },
+    "repo": {
+      "id": 932301027,
+      "name": "filoroch/typescript_beecrowd",
+      "url": "https://api.github.com/repos/filoroch/typescript_beecrowd"
+    },
+    "payload": {
+      "repository_id": 932301027,
+      "push_id": 22646527600,
+      "size": 1,
+      "distinct_size": 1,
+      "ref": "refs/heads/main",
+      "head": "c7bfe4c654825c6124f2691adb44fe73694b6673",
+      "before": "41944ec6f3b3dde61d857af9c16d22bfd8887c08",
+      "commits": [
+        {
+          "sha": "c7bfe4c654825c6124f2691adb44fe73694b6673",
+          "author": {
+            "email": "162770790+filoroch@users.noreply.github.com",
+            "name": "Filipe"
+          },
+          "message": "Update README.md",
+          "distinct": true,
+          "url": "https://api.github.com/repos/filoroch/typescript_beecrowd/commits/c7bfe4c654825c6124f2691adb44fe73694b6673"
+        }
+      ]
+    },
+    "public": true,
+    "created_at": "2025-02-13T20:10:23Z"
+  },
+  {
+    "id": "46554271269",
+    "type": "PushEvent",
+    "actor": {
+      "id": 162770790,
+      "login": "filoroch",
+      "display_login": "filoroch",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/filoroch",
+      "avatar_url": "https://avatars.githubusercontent.com/u/162770790?"
+    },
+    "repo": {
+      "id": 932301027,
+      "name": "filoroch/typescript_beecrowd",
+      "url": "https://api.github.com/repos/filoroch/typescript_beecrowd"
+    },
+    "payload": {
+      "repository_id": 932301027,
+      "push_id": 22646504218,
+      "size": 1,
+      "distinct_size": 1,
+      "ref": "refs/heads/main",
+      "head": "41944ec6f3b3dde61d857af9c16d22bfd8887c08",
+      "before": "0ced87b58473811120119cc0fd94e570e43edcab",
+      "commits": [
+        {
+          "sha": "41944ec6f3b3dde61d857af9c16d22bfd8887c08",
+          "author": {
+            "email": "162770790+filoroch@users.noreply.github.com",
+            "name": "Filipe"
+          },
+          "message": "Update README.md",
+          "distinct": true,
+          "url": "https://api.github.com/repos/filoroch/typescript_beecrowd/commits/41944ec6f3b3dde61d857af9c16d22bfd8887c08"
+        }
+      ]
+    },
+    "public": true,
+    "created_at": "2025-02-13T20:08:53Z"
+  },
+  {
+    "id": "46553987603",
+    "type": "PushEvent",
+    "actor": {
+      "id": 162770790,
+      "login": "filoroch",
+      "display_login": "filoroch",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/filoroch",
+      "avatar_url": "https://avatars.githubusercontent.com/u/162770790?"
+    },
+    "repo": {
+      "id": 932301027,
+      "name": "filoroch/typescript_beecrowd",
+      "url": "https://api.github.com/repos/filoroch/typescript_beecrowd"
+    },
+    "payload": {
+      "repository_id": 932301027,
+      "push_id": 22646361205,
+      "size": 4,
+      "distinct_size": 1,
+      "ref": "refs/heads/solving",
+      "head": "543120f8bca3bd62294fd8d6b712416dc2072e9e",
+      "before": "80c7ad467e76c3d524874fbd1216a8eefb85adf5",
+      "commits": [
+        {
+          "sha": "c8902627c451d0926810e2da70e371917af3e134",
+          "author": {
+            "email": "162770790+filoroch@users.noreply.github.com",
+            "name": "Filipe"
+          },
+          "message": "fix(all js archives): removing soving code\n\nSigned-off-by: Filipe <162770790+filoroch@users.noreply.github.com>",
+          "distinct": false,
+          "url": "https://api.github.com/repos/filoroch/typescript_beecrowd/commits/c8902627c451d0926810e2da70e371917af3e134"
+        },
+        {
+          "sha": "03836fac5dfdacad0a9663e716ca6542dc608a22",
+          "author": {
+            "email": "162770790+filoroch@users.noreply.github.com",
+            "name": "Filipe"
+          },
+          "message": "fix(all): removing solving codes in repo",
+          "distinct": false,
+          "url": "https://api.github.com/repos/filoroch/typescript_beecrowd/commits/03836fac5dfdacad0a9663e716ca6542dc608a22"
+        },
+        {
+          "sha": "0ced87b58473811120119cc0fd94e570e43edcab",
+          "author": {
+            "email": "162770790+filoroch@users.noreply.github.com",
+            "name": "Filipe"
+          },
+          "message": "docs(1015): add problem details\n\nSigned-off-by: Filipe <162770790+filoroch@users.noreply.github.com>",
+          "distinct": false,
+          "url": "https://api.github.com/repos/filoroch/typescript_beecrowd/commits/0ced87b58473811120119cc0fd94e570e43edcab"
+        },
+        {
+          "sha": "543120f8bca3bd62294fd8d6b712416dc2072e9e",
+          "author": {
+            "email": "162770790+filoroch@users.noreply.github.com",
+            "name": "Filipe"
+          },
+          "message": "feat(1015) add solved exercise\n\nSigned-off-by: Filipe <162770790+filoroch@users.noreply.github.com>",
+          "distinct": true,
+          "url": "https://api.github.com/repos/filoroch/typescript_beecrowd/commits/543120f8bca3bd62294fd8d6b712416dc2072e9e"
+        }
+      ]
+    },
+    "public": true,
+    "created_at": "2025-02-13T19:59:52Z"
+  },
+  {
+    "id": "46550999502",
+    "type": "PushEvent",
+    "actor": {
+      "id": 162770790,
+      "login": "filoroch",
+      "display_login": "filoroch",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/filoroch",
+      "avatar_url": "https://avatars.githubusercontent.com/u/162770790?"
+    },
+    "repo": {
+      "id": 932301027,
+      "name": "filoroch/typescript_beecrowd",
+      "url": "https://api.github.com/repos/filoroch/typescript_beecrowd"
+    },
+    "payload": {
+      "repository_id": 932301027,
+      "push_id": 22644882570,
+      "size": 1,
+      "distinct_size": 1,
+      "ref": "refs/heads/main",
+      "head": "0ced87b58473811120119cc0fd94e570e43edcab",
+      "before": "03836fac5dfdacad0a9663e716ca6542dc608a22",
+      "commits": [
+        {
+          "sha": "0ced87b58473811120119cc0fd94e570e43edcab",
+          "author": {
+            "email": "162770790+filoroch@users.noreply.github.com",
+            "name": "Filipe"
+          },
+          "message": "docs(1015): add problem details\n\nSigned-off-by: Filipe <162770790+filoroch@users.noreply.github.com>",
+          "distinct": true,
+          "url": "https://api.github.com/repos/filoroch/typescript_beecrowd/commits/0ced87b58473811120119cc0fd94e570e43edcab"
+        }
+      ]
+    },
+    "public": true,
+    "created_at": "2025-02-13T18:25:20Z"
+  },
+  {
+    "id": "46550690985",
+    "type": "PushEvent",
+    "actor": {
+      "id": 162770790,
+      "login": "filoroch",
+      "display_login": "filoroch",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/filoroch",
+      "avatar_url": "https://avatars.githubusercontent.com/u/162770790?"
+    },
+    "repo": {
+      "id": 932301027,
+      "name": "filoroch/typescript_beecrowd",
+      "url": "https://api.github.com/repos/filoroch/typescript_beecrowd"
+    },
+    "payload": {
+      "repository_id": 932301027,
+      "push_id": 22644726109,
+      "size": 1,
+      "distinct_size": 1,
+      "ref": "refs/heads/main",
+      "head": "03836fac5dfdacad0a9663e716ca6542dc608a22",
+      "before": "c8902627c451d0926810e2da70e371917af3e134",
+      "commits": [
+        {
+          "sha": "03836fac5dfdacad0a9663e716ca6542dc608a22",
+          "author": {
+            "email": "162770790+filoroch@users.noreply.github.com",
+            "name": "Filipe"
+          },
+          "message": "fix(all): removing solving codes in repo",
+          "distinct": true,
+          "url": "https://api.github.com/repos/filoroch/typescript_beecrowd/commits/03836fac5dfdacad0a9663e716ca6542dc608a22"
+        }
+      ]
+    },
+    "public": true,
+    "created_at": "2025-02-13T18:15:57Z"
+  },
+  {
+    "id": "46550659302",
+    "type": "PushEvent",
+    "actor": {
+      "id": 162770790,
+      "login": "filoroch",
+      "display_login": "filoroch",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/filoroch",
+      "avatar_url": "https://avatars.githubusercontent.com/u/162770790?"
+    },
+    "repo": {
+      "id": 932301027,
+      "name": "filoroch/typescript_beecrowd",
+      "url": "https://api.github.com/repos/filoroch/typescript_beecrowd"
+    },
+    "payload": {
+      "repository_id": 932301027,
+      "push_id": 22644709580,
+      "size": 1,
+      "distinct_size": 1,
+      "ref": "refs/heads/main",
+      "head": "c8902627c451d0926810e2da70e371917af3e134",
+      "before": "80c7ad467e76c3d524874fbd1216a8eefb85adf5",
+      "commits": [
+        {
+          "sha": "c8902627c451d0926810e2da70e371917af3e134",
+          "author": {
+            "email": "162770790+filoroch@users.noreply.github.com",
+            "name": "Filipe"
+          },
+          "message": "fix(all js archives): removing soving code\n\nSigned-off-by: Filipe <162770790+filoroch@users.noreply.github.com>",
+          "distinct": true,
+          "url": "https://api.github.com/repos/filoroch/typescript_beecrowd/commits/c8902627c451d0926810e2da70e371917af3e134"
+        }
+      ]
+    },
+    "public": true,
+    "created_at": "2025-02-13T18:15:00Z"
+  },
+  {
+    "id": "46550570959",
+    "type": "CreateEvent",
+    "actor": {
+      "id": 162770790,
+      "login": "filoroch",
+      "display_login": "filoroch",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/filoroch",
+      "avatar_url": "https://avatars.githubusercontent.com/u/162770790?"
+    },
+    "repo": {
+      "id": 932301027,
+      "name": "filoroch/typescript_beecrowd",
+      "url": "https://api.github.com/repos/filoroch/typescript_beecrowd"
+    },
+    "payload": {
+      "ref": "solving",
+      "ref_type": "branch",
+      "master_branch": "main",
+      "description": null,
+      "pusher_type": "user"
+    },
+    "public": true,
+    "created_at": "2025-02-13T18:12:25Z"
+  },
+  {
+    "id": "46550493314",
+    "type": "PushEvent",
+    "actor": {
+      "id": 162770790,
+      "login": "filoroch",
+      "display_login": "filoroch",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/filoroch",
+      "avatar_url": "https://avatars.githubusercontent.com/u/162770790?"
+    },
+    "repo": {
+      "id": 932301027,
+      "name": "filoroch/typescript_beecrowd",
+      "url": "https://api.github.com/repos/filoroch/typescript_beecrowd"
+    },
+    "payload": {
+      "repository_id": 932301027,
+      "push_id": 22644624318,
+      "size": 1,
+      "distinct_size": 1,
+      "ref": "refs/heads/main",
+      "head": "80c7ad467e76c3d524874fbd1216a8eefb85adf5",
+      "before": "630e9e5dc939f83439c84da2e270267216573bb7",
+      "commits": [
+        {
+          "sha": "80c7ad467e76c3d524874fbd1216a8eefb85adf5",
+          "author": {
+            "email": "162770790+filoroch@users.noreply.github.com",
+            "name": "Filipe"
+          },
+          "message": "fix(1014): add arrow function alternative with main funciont\n\nSigned-off-by: Filipe <162770790+filoroch@users.noreply.github.com>",
+          "distinct": true,
+          "url": "https://api.github.com/repos/filoroch/typescript_beecrowd/commits/80c7ad467e76c3d524874fbd1216a8eefb85adf5"
+        }
+      ]
+    },
+    "public": true,
+    "created_at": "2025-02-13T18:10:12Z"
+  },
+  {
+    "id": "46550377804",
+    "type": "PushEvent",
+    "actor": {
+      "id": 162770790,
+      "login": "filoroch",
+      "display_login": "filoroch",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/filoroch",
+      "avatar_url": "https://avatars.githubusercontent.com/u/162770790?"
+    },
+    "repo": {
+      "id": 932301027,
+      "name": "filoroch/typescript_beecrowd",
+      "url": "https://api.github.com/repos/filoroch/typescript_beecrowd"
+    },
+    "payload": {
+      "repository_id": 932301027,
+      "push_id": 22644566214,
+      "size": 1,
+      "distinct_size": 1,
+      "ref": "refs/heads/main",
+      "head": "630e9e5dc939f83439c84da2e270267216573bb7",
+      "before": "f64bcffad1c972cfc4f0939ac437315149de8698",
+      "commits": [
+        {
+          "sha": "630e9e5dc939f83439c84da2e270267216573bb7",
+          "author": {
+            "email": "162770790+filoroch@users.noreply.github.com",
+            "name": "Filipe"
+          },
+          "message": "feat(1014): add exercise 1014\n\nUsei um arrow function para tirar a media do consumo do carro a partir da divisão das duas entradas\n\nSigned-off-by: Filipe <162770790+filoroch@users.noreply.github.com>",
+          "distinct": true,
+          "url": "https://api.github.com/repos/filoroch/typescript_beecrowd/commits/630e9e5dc939f83439c84da2e270267216573bb7"
+        }
+      ]
+    },
+    "public": true,
+    "created_at": "2025-02-13T18:06:45Z"
+  },
+  {
+    "id": "46549829325",
+    "type": "PushEvent",
+    "actor": {
+      "id": 162770790,
+      "login": "filoroch",
+      "display_login": "filoroch",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/filoroch",
+      "avatar_url": "https://avatars.githubusercontent.com/u/162770790?"
+    },
+    "repo": {
+      "id": 932301027,
+      "name": "filoroch/typescript_beecrowd",
+      "url": "https://api.github.com/repos/filoroch/typescript_beecrowd"
+    },
+    "payload": {
+      "repository_id": 932301027,
+      "push_id": 22644293645,
+      "size": 1,
+      "distinct_size": 1,
+      "ref": "refs/heads/main",
+      "head": "f64bcffad1c972cfc4f0939ac437315149de8698",
+      "before": "5026299c617fb23a24d328991f11a32ef8a62b3f",
+      "commits": [
+        {
+          "sha": "f64bcffad1c972cfc4f0939ac437315149de8698",
+          "author": {
+            "email": "pessoal.filiperocha@gmail.com",
+            "name": "filipedhunior"
+          },
+          "message": "fix(repo): corrigindo inconsistencias entre arquivos\n\nSigned-off-by: filipedhunior <pessoal.filiperocha@gmail.com>",
+          "distinct": true,
+          "url": "https://api.github.com/repos/filoroch/typescript_beecrowd/commits/f64bcffad1c972cfc4f0939ac437315149de8698"
+        }
+      ]
+    },
+    "public": true,
+    "created_at": "2025-02-13T17:50:18Z"
+  },
+  {
+    "id": "46549336461",
+    "type": "PushEvent",
+    "actor": {
+      "id": 162770790,
+      "login": "filoroch",
+      "display_login": "filoroch",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/filoroch",
+      "avatar_url": "https://avatars.githubusercontent.com/u/162770790?"
+    },
+    "repo": {
+      "id": 932301027,
+      "name": "filoroch/typescript_beecrowd",
+      "url": "https://api.github.com/repos/filoroch/typescript_beecrowd"
+    },
+    "payload": {
+      "repository_id": 932301027,
+      "push_id": 22644047732,
+      "size": 1,
+      "distinct_size": 1,
+      "ref": "refs/heads/main",
+      "head": "5026299c617fb23a24d328991f11a32ef8a62b3f",
+      "before": "d6f79756f1f9a326a9242419a6755c4f400bc7f9",
+      "commits": [
+        {
+          "sha": "5026299c617fb23a24d328991f11a32ef8a62b3f",
+          "author": {
+            "email": "162770790+filoroch@users.noreply.github.com",
+            "name": "Filipe"
+          },
+          "message": "Update README.md",
+          "distinct": true,
+          "url": "https://api.github.com/repos/filoroch/typescript_beecrowd/commits/5026299c617fb23a24d328991f11a32ef8a62b3f"
+        }
+      ]
+    },
+    "public": true,
+    "created_at": "2025-02-13T17:35:50Z"
+  },
+  {
+    "id": "46549322299",
+    "type": "CreateEvent",
+    "actor": {
+      "id": 162770790,
+      "login": "filoroch",
+      "display_login": "filoroch",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/filoroch",
+      "avatar_url": "https://avatars.githubusercontent.com/u/162770790?"
+    },
+    "repo": {
+      "id": 932301027,
+      "name": "filoroch/typescript_beecrowd",
+      "url": "https://api.github.com/repos/filoroch/typescript_beecrowd"
+    },
+    "payload": {
+      "ref": null,
+      "ref_type": "repository",
+      "master_branch": "main",
+      "description": null,
+      "pusher_type": "user"
+    },
+    "public": true,
+    "created_at": "2025-02-13T17:35:27Z"
+  },
+  {
+    "id": "46549322204",
+    "type": "CreateEvent",
+    "actor": {
+      "id": 162770790,
+      "login": "filoroch",
+      "display_login": "filoroch",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/filoroch",
+      "avatar_url": "https://avatars.githubusercontent.com/u/162770790?"
+    },
+    "repo": {
+      "id": 932301027,
+      "name": "filoroch/typescript_beecrowd",
+      "url": "https://api.github.com/repos/filoroch/typescript_beecrowd"
+    },
+    "payload": {
+      "ref": "main",
+      "ref_type": "branch",
+      "master_branch": "main",
+      "description": null,
+      "pusher_type": "user"
+    },
+    "public": true,
+    "created_at": "2025-02-13T17:35:27Z"
+  },
+  {
+    "id": "46548665246",
+    "type": "PushEvent",
+    "actor": {
+      "id": 162770790,
+      "login": "filoroch",
+      "display_login": "filoroch",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/filoroch",
+      "avatar_url": "https://avatars.githubusercontent.com/u/162770790?"
+    },
+    "repo": {
+      "id": 932190090,
+      "name": "filoroch/java_beecrowd",
+      "url": "https://api.github.com/repos/filoroch/java_beecrowd"
+    },
+    "payload": {
+      "repository_id": 932190090,
+      "push_id": 22643703033,
+      "size": 1,
+      "distinct_size": 1,
+      "ref": "refs/heads/main",
+      "head": "36827dea02433de8e6fcb97ab5d2fafdf51f3c07",
+      "before": "840516d88503e3b372ec56cc378077187ad70a8e",
+      "commits": [
+        {
+          "sha": "36827dea02433de8e6fcb97ab5d2fafdf51f3c07",
+          "author": {
+            "email": "162770790+filoroch@users.noreply.github.com",
+            "name": "Filipe"
+          },
+          "message": "feat(1002) add exercise 1002\n\nSigned-off-by: Filipe <162770790+filoroch@users.noreply.github.com>",
+          "distinct": true,
+          "url": "https://api.github.com/repos/filoroch/java_beecrowd/commits/36827dea02433de8e6fcb97ab5d2fafdf51f3c07"
+        }
+      ]
+    },
+    "public": true,
+    "created_at": "2025-02-13T17:17:50Z"
+  },
+  {
+    "id": "46548025614",
+    "type": "PushEvent",
+    "actor": {
+      "id": 162770790,
+      "login": "filoroch",
+      "display_login": "filoroch",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/filoroch",
+      "avatar_url": "https://avatars.githubusercontent.com/u/162770790?"
+    },
+    "repo": {
+      "id": 932190090,
+      "name": "filoroch/java_beecrowd",
+      "url": "https://api.github.com/repos/filoroch/java_beecrowd"
+    },
+    "payload": {
+      "repository_id": 932190090,
+      "push_id": 22643386349,
+      "size": 1,
+      "distinct_size": 1,
+      "ref": "refs/heads/resolving",
+      "head": "98e9aad69ef411ef31db95b31af93b13bcfea840",
+      "before": "3689ef90052077e10956702a5160e4d0222f7b2e",
+      "commits": [
+        {
+          "sha": "98e9aad69ef411ef31db95b31af93b13bcfea840",
+          "author": {
+            "email": "162770790+filoroch@users.noreply.github.com",
+            "name": "Filipe"
+          },
+          "message": "fix(1001): add folder in repo\n\nSigned-off-by: Filipe <162770790+filoroch@users.noreply.github.com>",
+          "distinct": true,
+          "url": "https://api.github.com/repos/filoroch/java_beecrowd/commits/98e9aad69ef411ef31db95b31af93b13bcfea840"
+        }
+      ]
+    },
+    "public": true,
+    "created_at": "2025-02-13T17:00:49Z"
+  },
+  {
+    "id": "46546078392",
+    "type": "PushEvent",
+    "actor": {
+      "id": 162770790,
+      "login": "filoroch",
+      "display_login": "filoroch",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/filoroch",
+      "avatar_url": "https://avatars.githubusercontent.com/u/162770790?"
+    },
+    "repo": {
+      "id": 932190090,
+      "name": "filoroch/java_beecrowd",
+      "url": "https://api.github.com/repos/filoroch/java_beecrowd"
+    },
+    "payload": {
+      "repository_id": 932190090,
+      "push_id": 22642446810,
+      "size": 1,
+      "distinct_size": 1,
+      "ref": "refs/heads/main",
+      "head": "840516d88503e3b372ec56cc378077187ad70a8e",
+      "before": "3bf565d6780039722771d01eb1681768257809d3",
+      "commits": [
+        {
+          "sha": "840516d88503e3b372ec56cc378077187ad70a8e",
+          "author": {
+            "email": "162770790+filoroch@users.noreply.github.com",
+            "name": "Filipe"
+          },
+          "message": "Update 1000_HelloWorld.java",
+          "distinct": true,
+          "url": "https://api.github.com/repos/filoroch/java_beecrowd/commits/840516d88503e3b372ec56cc378077187ad70a8e"
+        }
+      ]
+    },
+    "public": true,
+    "created_at": "2025-02-13T16:11:58Z"
+  },
+  {
+    "id": "46545943542",
+    "type": "PushEvent",
+    "actor": {
+      "id": 162770790,
+      "login": "filoroch",
+      "display_login": "filoroch",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/filoroch",
+      "avatar_url": "https://avatars.githubusercontent.com/u/162770790?"
+    },
+    "repo": {
+      "id": 932190090,
+      "name": "filoroch/java_beecrowd",
+      "url": "https://api.github.com/repos/filoroch/java_beecrowd"
+    },
+    "payload": {
+      "repository_id": 932190090,
+      "push_id": 22642383202,
+      "size": 1,
+      "distinct_size": 1,
+      "ref": "refs/heads/resolving",
+      "head": "3689ef90052077e10956702a5160e4d0222f7b2e",
+      "before": "67c4816e08870202819b08e91c7228da9067ac49",
+      "commits": [
+        {
+          "sha": "3689ef90052077e10956702a5160e4d0222f7b2e",
+          "author": {
+            "email": "162770790+filoroch@users.noreply.github.com",
+            "name": "Filipe"
+          },
+          "message": "add 1001\n\nSigned-off-by: Filipe <162770790+filoroch@users.noreply.github.com>",
+          "distinct": true,
+          "url": "https://api.github.com/repos/filoroch/java_beecrowd/commits/3689ef90052077e10956702a5160e4d0222f7b2e"
+        }
+      ]
+    },
+    "public": true,
+    "created_at": "2025-02-13T16:08:49Z"
+  },
+  {
+    "id": "46545913519",
+    "type": "CreateEvent",
+    "actor": {
+      "id": 162770790,
+      "login": "filoroch",
+      "display_login": "filoroch",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/filoroch",
+      "avatar_url": "https://avatars.githubusercontent.com/u/162770790?"
+    },
+    "repo": {
+      "id": 932190090,
+      "name": "filoroch/java_beecrowd",
+      "url": "https://api.github.com/repos/filoroch/java_beecrowd"
+    },
+    "payload": {
+      "ref": "resolving",
+      "ref_type": "branch",
+      "master_branch": "main",
+      "description": null,
+      "pusher_type": "user"
+    },
+    "public": true,
+    "created_at": "2025-02-13T16:08:07Z"
+  },
+  {
+    "id": "46545857482",
+    "type": "PushEvent",
+    "actor": {
+      "id": 162770790,
+      "login": "filoroch",
+      "display_login": "filoroch",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/filoroch",
+      "avatar_url": "https://avatars.githubusercontent.com/u/162770790?"
+    },
+    "repo": {
+      "id": 932190090,
+      "name": "filoroch/java_beecrowd",
+      "url": "https://api.github.com/repos/filoroch/java_beecrowd"
+    },
+    "payload": {
+      "repository_id": 932190090,
+      "push_id": 22642343731,
+      "size": 2,
+      "distinct_size": 2,
+      "ref": "refs/heads/main",
+      "head": "3bf565d6780039722771d01eb1681768257809d3",
+      "before": "57a472a6593210ba49aee02a2a849f606ef3e555",
+      "commits": [
+        {
+          "sha": "461a4b12e490e78b74fee62ff2e2908d48afce13",
+          "author": {
+            "email": "162770790+filoroch@users.noreply.github.com",
+            "name": "Filipe"
+          },
+          "message": "algo\n\nSigned-off-by: Filipe <162770790+filoroch@users.noreply.github.com>",
+          "distinct": true,
+          "url": "https://api.github.com/repos/filoroch/java_beecrowd/commits/461a4b12e490e78b74fee62ff2e2908d48afce13"
+        },
+        {
+          "sha": "3bf565d6780039722771d01eb1681768257809d3",
+          "author": {
+            "email": "162770790+filoroch@users.noreply.github.com",
+            "name": "Filipe"
+          },
+          "message": "feat(1001): add exercise\n\nSigned-off-by: Filipe <162770790+filoroch@users.noreply.github.com>",
+          "distinct": true,
+          "url": "https://api.github.com/repos/filoroch/java_beecrowd/commits/3bf565d6780039722771d01eb1681768257809d3"
+        }
+      ]
+    },
+    "public": true,
+    "created_at": "2025-02-13T16:06:48Z"
+  },
+  {
+    "id": "46544260794",
+    "type": "PushEvent",
+    "actor": {
+      "id": 162770790,
+      "login": "filoroch",
+      "display_login": "filoroch",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/filoroch",
+      "avatar_url": "https://avatars.githubusercontent.com/u/162770790?"
+    },
+    "repo": {
+      "id": 932190090,
+      "name": "filoroch/java_beecrowd",
+      "url": "https://api.github.com/repos/filoroch/java_beecrowd"
+    },
+    "payload": {
+      "repository_id": 932190090,
+      "push_id": 22641585441,
+      "size": 1,
+      "distinct_size": 1,
+      "ref": "refs/heads/main",
+      "head": "57a472a6593210ba49aee02a2a849f606ef3e555",
+      "before": "d81cf4607819ec62d3e635898fd72b954d0e2b9c",
+      "commits": [
+        {
+          "sha": "57a472a6593210ba49aee02a2a849f606ef3e555",
+          "author": {
+            "email": "162770790+filoroch@users.noreply.github.com",
+            "name": "Filipe"
+          },
+          "message": "Update README.md",
+          "distinct": true,
+          "url": "https://api.github.com/repos/filoroch/java_beecrowd/commits/57a472a6593210ba49aee02a2a849f606ef3e555"
+        }
+      ]
+    },
+    "public": true,
+    "created_at": "2025-02-13T15:29:26Z"
+  }
+]
