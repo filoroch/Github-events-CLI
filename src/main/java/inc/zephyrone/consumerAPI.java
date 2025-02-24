@@ -1,7 +1,9 @@
 package inc.zephyrone;
 
 import com.fasterxml.jackson.core.exc.StreamWriteException;
+import com.fasterxml.jackson.core.type.TypeReference;
 import com.fasterxml.jackson.databind.DatabindException;
+import com.fasterxml.jackson.databind.JsonNode;
 import com.fasterxml.jackson.databind.ObjectMapper;
 import com.google.gson.Gson;
 import org.jetbrains.annotations.NotNull;
@@ -10,20 +12,32 @@ import javax.net.ssl.HttpsURLConnection;
 import java.io.*;
 import java.net.MalformedURLException;
 import java.net.URL;
+import java.util.List;
 import java.util.Scanner;
 
 public class consumerAPI {
 
     public static void main(String[] args) throws IOException, MalformedURLException {
-        var response = consumer(new Scanner(System.in));
+        Scanner inputSc = new Scanner(System.in);
+        String input = "";
 
-        // Salva a resposta da api consultada em um JSON
-        try{
-            responseJSON(response, "GithubUser.json");
-        } catch(IOException e) {
-            System.err.println("Erro ao salvar o JSON: " + e.getMessage());
+        while (!input.equalsIgnoreCase("SAIR")){
+            var response = consumer(new Scanner(System.in));
+
+            // Salva a resposta da api consultada em um JSON
+            try{
+                responseJSON(response, "GithubUserActivity.json");
+            } catch(IOException e) {
+                System.err.println("Erro ao salvar o JSON: " + e.getMessage());
+            }
+            // Mostra no CLI
+            Parser();
+
+            System.out.println("\nDigite SAIR, para SAIR");
+            input = inputSc.nextLine();
         }
 
+        inputSc.close();
     // Retornar o json no console
     // Converter para a saida esperada
     }
@@ -33,7 +47,6 @@ public class consumerAPI {
         String user = input.nextLine();
         final String endpoint = "/events";
 
-        input.close();
 
         // Conectar com a api
         String urlParams = "https://api.github.com/users/" + user + endpoint;
@@ -64,10 +77,34 @@ public class consumerAPI {
             connection.disconnect();
         }
     }
-
     public static void responseJSON (String response, String nomeArquivo) throws StreamWriteException, DatabindException, IOException{
         ObjectMapper mapper = new ObjectMapper();
         mapper.writerWithDefaultPrettyPrinter().writeValue(new File(nomeArquivo), mapper.readTree(response));
         System.out.println("[LOG] JSON salvo em: " + nomeArquivo);
+    }
+    public static void Parser(){
+        try {
+            // Ler o JSON do arquivo
+            ObjectMapper mapper = new ObjectMapper();
+            List<JsonNode> events = mapper.readValue(new File("GithubUserActivity.json"), new TypeReference<>() {});
+
+            for (int i=0; i < 3; i++){
+                JsonNode event = events.get(i);
+                String type = event.get("type").asText();
+                String repoName = event.get("repo").get("name").asText();
+
+                switch (type) {
+                    case "PushEvent" -> {
+                        int commitCount = event.get("payload").get("size").asInt();
+                        System.out.println("- Pushed " + commitCount + " commits to " + repoName);
+                    }
+                    case "IssuesEvent" -> System.out.println("- Opened a new issue in " + repoName);
+                    case "WatchEvent" -> System.out.println("- Starred " + repoName);
+                    default -> System.out.println("- " + type + " event in " + repoName);
+                }
+            }
+        } catch (IOException e) {
+            System.err.println("Erro ao ler o JSON: " + e.getMessage());
+        }
     }
 }

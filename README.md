@@ -36,3 +36,12 @@ public static void responseJSON (String response, String nomeArquivo) throws Str
         System.out.println("[LOG] JSON salvo em: " + nomeArquivo);
     }
 ```
+
+## Ações
+- [ ] Construir um objeto java que seja capaz de retornar no terminal:
+  ```
+  - Pushed 3 commits to kamranahmedse/developer-roadmap
+  - Opened a new issue in kamranahmedse/developer-roadmap
+  - Starred kamranahmedse/developer-roadmap
+  ```
+- [ ] Aprender a desserializar 
