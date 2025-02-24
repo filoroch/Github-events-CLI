@@ -17,6 +17,7 @@ public class consumerAPI {
     public static void main(String[] args) throws IOException, MalformedURLException {
         var response = consumer(new Scanner(System.in));
 
+        // Salva a resposta da api consultada em um JSON
         try{
             responseJSON(response, "GithubUser.json");
         } catch(IOException e) {
@@ -28,7 +29,7 @@ public class consumerAPI {
     }
     public static String consumer(@NotNull Scanner input) throws IOException {
         // Recebe o valor do CLI
-        System.out.println("Digite o nome do usuario");
+        System.out.println("\nDigite o nome do usuario");
         String user = input.nextLine();
         final String endpoint = "/events";
 
@@ -55,7 +56,7 @@ public class consumerAPI {
             }
             reader.close();
 
-            System.out.println("Resposta da API: " + response.toString());
+            System.out.println("[LOG] Resposta da API: " + response.toString());
 
             return response.toString();
 
@@ -67,6 +68,6 @@ public class consumerAPI {
     public static void responseJSON (String response, String nomeArquivo) throws StreamWriteException, DatabindException, IOException{
         ObjectMapper mapper = new ObjectMapper();
         mapper.writerWithDefaultPrettyPrinter().writeValue(new File(nomeArquivo), mapper.readTree(response));
-        System.out.println("JSON salvo em; " + nomeArquivo);
+        System.out.println("[LOG] JSON salvo em: " + nomeArquivo);
     }
 }
